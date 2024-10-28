@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 500px; /* Tăng chiều rộng container */
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 36px; /* Tăng kích thước chữ tiêu đề */
+}
+
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px; /* Tăng kích thước chữ của nhãn */
+}
+
+input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 15px 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px; /* Tăng kích thước chữ của ô nhập liệu */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.5); /* Tăng kích thước của nút radio */
+}
+
+.operations label {
+    font-size: 24px; /* Tăng kích thước chữ của nhãn cho phép tính */
+    margin-right: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px; /* Tăng kích thước chữ của nút */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.notification {
+    margin-top: 15px;
+    color: red;
+    font-size: 22px; /* Tăng kích thước chữ của thông báo lỗi */
+}
+
+.operations {
+    text-align: left;
+}
